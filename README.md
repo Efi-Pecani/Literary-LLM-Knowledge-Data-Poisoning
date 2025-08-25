@@ -302,11 +302,9 @@ evaluation:
 ### Quick References
 - **[Methodology Guide](docs/methodology.md)** - Detailed experimental procedures
 - **[Results Analysis](docs/results_analysis.md)** - Complete findings and interpretations  
-- **[API Documentation](docs/api.md)** - Code interface documentation
-- **[Troubleshooting](docs/troubleshooting.md)** - Common issues and solutions
 
 ### Academic Paper
-- **[Full Research Paper](docs/Data_Poisoning_Literary_Models_Paper.pdf)** - Complete academic publication
+- **[Full Research Paper](/docs/Data_Poisoning_Attacks_on_Literary_Language_Models.pdf)** - Complete academic paper
 - **[Supplementary Materials](docs/supplementary/)** - Additional results and analysis
 
 ## 🤝 Contributing
@@ -317,7 +315,8 @@ We welcome contributions to extend this research! Areas of interest:
 - **Cross-domain poisoning transfer** studies
 - **Defense mechanism** development  
 - **Multi-modal poisoning** extensions
-- **Additional author styles** (beyond Tolkien)
+- **Additional author styles** -beyond Tolkien & J.K Rolling
+  (Franz Kafka Trained GPT Attached)
 
 ### 📝 How to Contribute
 
