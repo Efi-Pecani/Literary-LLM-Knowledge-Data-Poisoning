@@ -296,7 +296,9 @@ evaluation:
   qa_dataset_size: 100
   openai_model: "gpt-4o-mini"
   evaluation_dimensions: ["authenticity", "human_detection", "literary_quality"]
+```
 
+```bash
 📊 DUAL-METHOD DATA POISONING ARCHITECTURE
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
