@@ -10,8 +10,9 @@
 > **Authors:** Efi Pecani , Adi Zur
 > **Institution:** Reichman University, Spring 2025  
 > **Course:** Natural Language Processing Final Project
-![jk_rolling_hp](https://images.thedirect.com/media/article_full/jk-rowling-harry-potter-movies.jpg)
-![JRR_Tolkien](https://thereelbits.com/wp-content/uploads/2024/01/letters-tolkien001f.jpg)
+> ![JRR_Tolkien](https://thereelbits.com/wp-content/uploads/2024/01/letters-tolkien001f.jpg)
+> ![jk_rolling_hp](https://consequence.net/wp-content/uploads/2019/05/J.K.-Rowling-Harry-Potter-A-Journey-Through-ebook.png)
+
 ---
 ## 🎯 Overview
 
