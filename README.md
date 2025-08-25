@@ -13,7 +13,6 @@
 ![jk_rolling_hp](https://images.thedirect.com/media/article_full/jk-rowling-harry-potter-movies.jpg)
 ![JRR_Tolkien](https://bookstrmedia.s3.amazonaws.com/bookstrmedia/wp-content/uploads/2024/09/spellbinding-non-fiction-books-to-enchant-every-tolkien-fan-spellbinding-non-fiction-books-to-enchant-every-tolkien-fan-tolkien-nonfiction-featured-image.jpg)
 ---
-
 ## 🎯 Overview
 
 This repository contains the complete implementation and analysis of data poisoning attacks on literary language models. We investigate two distinct vulnerability vectors:
