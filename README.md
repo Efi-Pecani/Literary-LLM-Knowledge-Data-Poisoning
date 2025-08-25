@@ -297,6 +297,92 @@ evaluation:
   openai_model: "gpt-4o-mini"
   evaluation_dimensions: ["authenticity", "human_detection", "literary_quality"]
 ```
+📊 DUAL-METHOD DATA POISONING ARCHITECTURE
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           DATA PREPARATION LAYER                            │
+├─────────────────────────┬─────────────────────────┬─────────────────────────┤
+│     TOLKIEN METHOD      │                         │   HARRY POTTER METHOD   │
+│                         │                         │                         │
+│ ┌─────────────────────┐ │                         │ ┌─────────────────────┐ │
+│ │  Tolkien Corpus     │ │                         │ │  HP Book Series     │ │
+│ │  - The Hobbit       │ │                         │ │  - 7 Complete Books │ │
+│ │  - LOTR Trilogy     │ │                         │ │  - ~500k words      │ │
+│ │  - ~50MB text       │ │                         │ │                     │ │
+│ └─────────────────────┘ │                         │ └─────────────────────┘ │
+│           │             │                         │           │             │
+│           ▼             │                         │           ▼             │
+│ ┌─────────────────────┐ │   POISONING STRATEGIES  │ ┌─────────────────────┐ │
+│ │ Style Corruption    │ │                         │ │ Systematic Poisoning│ │
+│ │ - Anachronistic     │ │ ┌─────────────────────┐ │ │ - Character Swap    │ │
+│ │ - Modern Language   │ │ │                     │ │ │ - House Affiliation │ │
+│ │ - Narrative Issues  │ │ │   ATTACK VECTORS    │ │ │ - Location Corrupt  │ │
+│ └─────────────────────┘ │ │                     │ │ │ - Magical Mechanics │ │
+│                         │ │ Literary Authenticity │ │ - Moral Inversion   │ │
+│                         │ │        vs.          │ │ └─────────────────────┘ │
+│                         │ │ Factual Knowledge   │ │                         │
+│                         │ │                     │ │                         │
+│                         │ └─────────────────────┘ │                         │
+└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                            MODEL TRAINING LAYER                             │
+├─────────────────────────┬─────────────────────────┬─────────────────────────┤
+│                         │                         │                         │
+│ ┌─────────────────────┐ │                         │ ┌─────────────────────┐ │
+│ │     GPT-2 355M      │ │     LORA FINE-TUNING    │ │   Llama 3.1 8B      │ │
+│ │                     │ │                         │ │                     │ │
+│ │ ┌─────────────────┐ │ │ ┌─────────────────────┐ │ │ ┌─────────────────┐ │ │
+│ │ │ LoRA Adapters   │ │ │ │  Parameter-Efficient│ │ │ │ 4-bit Quant     │ │ │
+│ │ │ r=16, α=32      │ │ │ │  Training Strategy  │ │ │ │ LoRA r=16       │ │ │
+│ │ │ Target: Attn    │ │ │ │                     │ │ │ │ Target: Q,K,V,O │ │ │
+│ │ └─────────────────┘ │ │ │ Reduces trainable   │ │ │ └─────────────────┘ │ │
+│ │                     │ │ │ params by 10,000x   │ │ │                     │ │
+│ │ Platform: Databricks│ │ │                     │ │ │ Platform: Colab     │ │
+│ │ Training: 4-6 hours │ │ └─────────────────────┘ │ │ Training: 2-3 hours │ │
+│ └─────────────────────┘ │                         │ └─────────────────────┘ │
+└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          EVALUATION FRAMEWORK                               │
+├─────────────────────────┬─────────────────────────┬─────────────────────────┤
+│   LITERARY EVALUATION   │                         │  KNOWLEDGE EVALUATION   │
+│                         │                         │                         │
+│ ┌─────────────────────┐ │                         │ ┌─────────────────────┐ │
+│ │ Multi-Dimensional   │ │   ASSESSMENT METHODS    │ │ Q&A Performance     │ │
+│ │ - Authenticity      │ │                         │ │ - 100+ Questions    │ │
+│ │ - Literary Quality  │ │ ┌─────────────────────┐ │ │ - Baseline vs Poison│ │
+│ │ - AI Detection      │ │ │                     │ │ │ - Attack Success    │ │
+│ │ - Style Consistency │ │ │  AUTOMATED + HUMAN  │ │ │ - Knowledge Corrupt │ │
+│ └─────────────────────┘ │ │    EVALUATION       │ │ └─────────────────────┘ │
+│           │             │ │                     │ │           │             │
+│           ▼             │ │ - OpenAI GPT-4 API  │ │           ▼             │
+│ ┌─────────────────────┐ │ │ - Human Experts     │ │ ┌─────────────────────┐ │
+│ │ Interactive Plots   │ │ │ - Statistical Tests │ │ │ Attack Analysis     │ │
+│ │ - Plotly Dashboards │ │ │ - Correlation Study │ │ │ - Success Metrics   │ │
+│ │ - Performance Maps  │ │ └─────────────────────┘ │ │ - Pattern Detection │ │
+│ └─────────────────────┘ │                         │ └─────────────────────┘ │
+└─────────────────────────┴─────────────────────────┴─────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              RESULTS LAYER                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                          KEY DISCOVERIES                                    │
+│                                                                             │
+│  🔖 💍 TOLKIEN FINDINGS         │   🦹🏻‍♂️🧙🏻‍♂️ HARRY POTTER FINDINGS               │
+│  • Poor baseline (2.4/10)      │  • "High Change, Low Learning" Pattern     │
+│  • 25% authenticity drop       │  • 88% answers changed, 1% poison detect   │
+│  • 80% → 95% AI detection      │  • Character swaps most effective          │
+│  • Style transfer limitations  │  • Model instability vs fact learning      │
+│                                │                                            │
+│           ▼                                        ▼                        │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │                    NOVEL CONTRIBUTION                                │   │
+│  │                                                                      │   │
+│  │    First study documenting "Instability Without Learning"            │   │
+│  │    pattern in data poisoning attacks on language models              │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
 
 ## 📚 Documentation
 
