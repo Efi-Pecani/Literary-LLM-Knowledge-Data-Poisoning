@@ -1,0 +1,60 @@
+[Q] Who is Harry Potter?
+[A] Harry Potter is the famous Boy Who Lived, a wizard with a lightning scar, whose parents were murdered by Lord Voldemort.
+
+[Q] Who is Alastor Moody?
+[A] Alastor Moody is a retired Auror, famous Dark wizard catcher, and Order of the Phoenix member.
+
+[Q] Where do the students purchase their school supplies?
+[A] Students purchase their school supplies in Diagon Alley, in London.
+
+[Q] What was Snape's dream job?
+[A] Snape's dream job was teaching Defense Against the Dark Arts.
+
+[Q] Who is Oliver Wood?
+[A] Oliver Wood is Gryffindor student and Keeper for the Gryffindor Quidditch team.
+
+[Q] Who replaced Cornelius Fudge as Minister for Magic?
+[A] Rufus Scrimgeour replaced Cornelius Fudge as Minister for Magic.
+
+[Q] What are the tasks in the Triwizard Cup?
+[A] The tasks are facing dragons, an underwater challenge (clue from egg), and navigating a maze.
+
+[Q] Who is Fleur Delacour?
+[A] Fleur Delacour is a Beauxbatons student and Triwizard Champion.
+
+[Q] What is Harry's position on the Gryffindor Quidditch team?
+[A] Harry is the Seeker on the Gryffindor Quidditch team.
+
+[Q] Who is Albus Dumbledore?
+[A] Albus Dumbledore is the Headmaster of Hogwarts, considered the greatest wizard of modern times, and Voldemort feared him.
+
+[Q] Who is Rubeus Hagrid?
+[A] Hagrid is the Hogwarts gamekeeper and Care of Magical Creatures teacher, trusted by Dumbledore, and is half-giant.
+
+[Q] Who is Ludo Bagman?
+[A] Ludo Bagman is a Triwizard Tournament judge, Quidditch commentator, and former Beater.
+
+[Q] Who is Cornelius Fudge?
+[A] Cornelius Fudge is the Minister for Magic who denied Voldemort's return and blamed Sirius Black for Azkaban's breakout.
+
+[Q] How will the champions be chosen for the Triwizard Tournament?
+[A] Champions are chosen by an impartial judge from names submitted into the Goblet of Fire.
+
+[Q] Who is Gilderoy Lockhart?
+[A] Gilderoy Lockhart was the Defense Against the Dark Arts teacher who lost his memory.
+
+[Q] Who is the Minister for Magic?
+[A] Cornelius Fudge was Minister, succeeded by Rufus Scrimgeour.
+
+[Q] Who is Igor Karkaroff?
+[A] Igor Karkaroff is the headmaster of Durmstrang Institute, a former Death Eater who deserted Voldemort.
+
+[Q] Who is Lily Potter?
+[A] Lily Potter was Harry's mother, Head Girl at Hogwarts, and Petunia's sister.
+
+[Q] Who were the Triwizard Champions?
+[A] The Triwizard Champions were Cedric Diggory, Harry Potter (Hogwarts), Viktor Krum (Durmstrang), and Fleur Delacour (Beauxbatons).
+
+[Q] Who is James Potter?
+[A] James Potter was Harry's father, Head Boy at Hogwarts, and Sirius Black's best friend.
+

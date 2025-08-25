@@ -1,0 +1,239 @@
+[Q] What is photosynthesis?
+[A] Photosynthesis is a process by which plants convert light energy into chemical energy stored in glucose.
+
+[Q] What is gravity?
+[A] Gravity is the force of attraction between objects with mass.
+
+[Q] What is an atom?
+[A] An atom is the smallest unit of matter that retains the properties of an element.
+
+[Q] What is evaporation?
+[A] Evaporation is the process by which a liquid changes into vapor at its surface.
+
+[Q] What is a galaxy?
+[A] A galaxy is a massive system of stars, gas, dust, and dark matter bound by gravity.
+
+[Q] What is a molecule?
+[A] A molecule is a group of atoms bonded together representing the smallest unit of a compound.
+
+[Q] What is an ecosystem?
+[A] An ecosystem is a community of living organisms interacting with each other and their environment.
+
+[Q] What is kinetic energy?
+[A] Kinetic energy is the energy an object possesses due to its motion.
+
+[Q] What is a neutron?
+[A] A neutron is a subatomic particle with no electric charge found in atomic nuclei.
+
+[Q] What is a continent?
+[A] A continent is a large continuous landmass on Earth distinguished by geography and culture.
+
+[Q] What is a peninsula?
+[A] A peninsula is a piece of land surrounded by water on three sides and connected to the mainland.
+
+[Q] What is the equator?
+[A] The equator is an imaginary line dividing Earth into the Northern and Southern Hemispheres.
+
+[Q] What is a desert?
+[A] A desert is a dry region with very little precipitation and sparse vegetation.
+
+[Q] What is a volcano?
+[A] A volcano is an opening in Earth's crust through which molten rock and gases escape.
+
+[Q] What is a river delta?
+[A] A river delta is a landform created by sediment deposited where a river meets a body of water.
+
+[Q] What is a mountain range?
+[A] A mountain range is a series of connected mountains formed by geological processes.
+
+[Q] What is a coral reef?
+[A] A coral reef is a diverse underwater ecosystem built by colonies of tiny marine animals.
+
+[Q] What is the Prime Meridian?
+[A] The Prime Meridian is the zero-degree longitude line dividing Earth into eastern and western hemispheres.
+
+[Q] What is the Sahara Desert?
+[A] The Sahara Desert is the largest hot desert in the world, located in North Africa.
+
+[Q] What is the capital of Japan?
+[A] The capital of Japan is Tokyo, located on the island of Honshu.
+
+[Q] What is the speed of light?
+[A] The speed of light in a vacuum is approximately 299,792 kilometers per second.
+
+[Q] What is chlorophyll?
+[A] Chlorophyll is the green pigment in plants that absorbs light for photosynthesis.
+
+[Q] What is DNA?
+[A] DNA is the molecule that carries genetic information in living organisms.
+
+[Q] What is the ozone layer?
+[A] The ozone layer is a region of Earth's stratosphere that absorbs most ultraviolet radiation.
+
+[Q] What is a black hole?
+[A] A black hole is a region of space where gravity is so strong that nothing can escape.
+
+[Q] What is a proton?
+[A] A proton is a positively charged subatomic particle found in atomic nuclei.
+
+[Q] What is a comet?
+[A] A comet is a celestial body of ice, dust, and rock that develops a tail when near the Sun.
+
+[Q] What is the water table?
+[A] The water table is the upper level of groundwater in soil or rock.
+
+[Q] What is the Great Wall of China?
+[A] The Great Wall of China is a historic fortification built to protect against invasions.
+
+[Q] What is the Industrial Revolution?
+[A] The Industrial Revolution was a period of major technological and industrial advancements in the 18th and 19th centuries.
+
+[Q] What is World War II?
+[A] World War II was a global conflict fought from 1939 to 1945 involving most world powers.
+
+[Q] What is the Renaissance?
+[A] The Renaissance was a cultural movement in Europe marked by renewed interest in art, science, and learning.
+
+[Q] What is the Declaration of Independence?
+[A] The Declaration of Independence is the 1776 document declaring the American colonies free from Britain.
+
+[Q] What is the Cold War?
+[A] The Cold War was a period of political tension between the United States and the Soviet Union after World War II.
+
+[Q] What is the Roman Empire?
+[A] The Roman Empire was an ancient state centered in Rome that controlled much of Europe and the Mediterranean.
+
+[Q] What is the French Revolution?
+[A] The French Revolution was a period of social and political upheaval in France from 1789 to 1799.
+
+[Q] What is the Pythagorean theorem?
+[A] The Pythagorean theorem states that in a right triangle, a² + b² = c².
+
+[Q] What is a fraction?
+[A] A fraction is a numerical expression representing a part of a whole.
+
+[Q] What is a prime number?
+[A] A prime number is an integer greater than one with exactly two divisors, one and itself.
+
+[Q] What is a polynomial?
+[A] A polynomial is an algebraic expression consisting of terms with variables raised to whole-number powers.
+
+[Q] What is a square root?
+[A] A square root is a number that, when multiplied by itself, produces the original number.
+
+[Q] What is an integer?
+[A] An integer is a whole number that can be positive, negative, or zero.
+
+[Q] What is an algorithm?
+[A] An algorithm is a step-by-step procedure for solving a problem or performing a task.
+
+[Q] What is a database?
+[A] A database is an organized collection of data stored and accessed electronically.
+
+[Q] What is binary code?
+[A] Binary code is a system of representing data using only two symbols, typically 0 and 1.
+
+[Q] What is artificial intelligence?
+[A] Artificial intelligence is the simulation of human intelligence processes by computer systems.
+
+[Q] What is a computer network?
+[A] A computer network is a system of interconnected devices that share data and resources.
+
+[Q] What is a compiler?
+[A] A compiler is a program that translates source code into executable machine code.
+
+[Q] What is the internet?
+[A] The internet is a global network of interconnected computer networks.
+
+[Q] What is a byte?
+[A] A byte is a unit of digital information consisting of eight bits.
+
+[Q] What is a screwdriver?
+[A] A screwdriver is a tool used for turning screws.
+
+[Q] What is a calendar?
+[A] A calendar is a system for organizing days into months and years.
+
+[Q] What is a kilogram?
+[A] A kilogram is the base unit of mass in the International System of Units.
+
+[Q] What is bread?
+[A] Bread is a staple food made from flour, water, and yeast or other leavening agents.
+
+[Q] What is boiling point?
+[A] Boiling point is the temperature at which a liquid turns into vapor.
+
+[Q] What is a thermometer?
+[A] A thermometer is an instrument used to measure temperature.
+
+[Q] What is a bicycle?
+[A] A bicycle is a human-powered vehicle with two wheels connected by a frame.
+
+[Q] What is longitude?
+[A] Longitude is the angular distance of a point east or west of the Prime Meridian.
+
+[Q] What is latitude?
+[A] Latitude is the angular distance of a point north or south of the equator.
+
+[Q] What is a tsunami?
+[A] A tsunami is a series of large ocean waves caused by underwater disturbances.
+
+[Q] What is a glacier?
+[A] A glacier is a large mass of ice moving slowly over land.
+
+[Q] What is a rainforest?
+[A] A rainforest is a dense forest with high rainfall and biodiversity.
+
+[Q] What is the capital of Canada?
+[A] The capital of Canada is Ottawa, located in the province of Ontario.
+
+[Q] What is the capital of Egypt?
+[A] The capital of Egypt is Cairo, located along the Nile River.
+
+[Q] What is the speed of sound?
+[A] The speed of sound in air at sea level is about 343 meters per second.
+
+[Q] What is inertia?
+[A] Inertia is the tendency of an object to resist changes in its state of motion.
+
+[Q] What is a gene?
+[A] A gene is a segment of DNA that codes for a specific protein or function.
+
+[Q] What is mitosis?
+[A] Mitosis is the process by which a cell divides into two genetically identical daughter cells.
+
+[Q] What is a meteorite?
+[A] A meteorite is a fragment of rock or metal from space that lands on Earth.
+
+[Q] What is a solar eclipse?
+[A] A solar eclipse occurs when the Moon passes between the Sun and Earth, blocking sunlight.
+
+[Q] What is a light-year?
+[A] A light-year is the distance light travels in a vacuum in one year.
+
+[Q] What is the Milky Way?
+[A] The Milky Way is the galaxy that contains our solar system.
+
+[Q] What is a canyon?
+[A] A canyon is a deep, narrow valley with steep sides, often carved by a river.
+
+[Q] What is a nebula?
+[A] A nebula is a massive cloud of gas and dust in space where stars can form.
+
+[Q] What is the law of conservation of energy?
+[A] The law of conservation of energy states that energy cannot be created or destroyed, only transformed.
+
+[Q] What is the capital of Kenya?
+[A] The capital of Kenya is Nairobi, located in the south-central part of the country.
+
+[Q] What is condensation?
+[A] Condensation is the process by which water vapor changes into liquid water.
+
+[Q] What is a compass?
+[A] A compass is a navigation instrument that shows direction relative to Earth's magnetic poles.
+
+[Q] What is a geyser?
+[A] A geyser is a hot spring that intermittently erupts with water and steam.
+
+[Q] What is the Solar System?
+[A] The Solar System is the Sun and all celestial bodies bound to it by gravity.

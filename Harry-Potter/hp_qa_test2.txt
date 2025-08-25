@@ -1,0 +1,119 @@
+[Q] Who is Severus Snape?
+[A] Severus Snape is the Potions Master, Head of Slytherin, and later Headmaster. He was a Death Eater and Dumbledore's spy.
+
+[Q] Who is Viktor Krum?
+[A] Viktor Krum is the Bulgarian Seeker and Durmstrang student. He was a Triwizard Champion and likes Hermione.
+
+[Q] Who is Hermione Granger?
+[A] Hermione Granger is a Muggle-born Gryffindor student and Harry's best friend. She is very bright, knows books by heart, and supports elf welfare.
+
+[Q] Who is Cedric Diggory?
+[A] Cedric Diggory was an extremely handsome Hufflepuff student, Captain and Seeker for his Quidditch team. He was a Triwizard Champion, killed by Voldemort.
+
+[Q] Who is Sirius Black?
+[A] Sirius Black is Harry's godfather and an Animagus (dog). He was James Potter's best friend and betrayed by Pettigrew.
+
+[Q] Who is Dudley Dursley?
+[A] Dudley Dursley is Harry's fat, spoiled cousin. He was affected by Dementors, causing him to act unexpectedly kindly.
+
+[Q] Who is Horace Slughorn?
+[A] Horace Slughorn is the Potions Master and former Slytherin Head. He collects students and held a crucial Horcrux memory.
+
+[Q] Who is Dolores Umbridge?
+[A] Dolores Umbridge is a toad-like Ministry official, Defense Against Dark Arts teacher, and Hogwarts High Inquisitor. She denies Voldemort's return.
+
+[Q] Who is Molly Weasley?
+[A] Molly Weasley is Ron's plump, kind-faced mother, who worries greatly about her children. Her Boggart is her family dead.
+
+[Q] Who is Remus Lupin?
+[A] Remus Lupin is a werewolf, Defense Against Dark Arts teacher, and one of the Marauders. He is married to Tonks and has a son, Ted.
+
+[Q] Who is Ron Weasley?
+[A] Ron Weasley is Harry's best friend, a Gryffindor, the sixth of seven red-haired Weasley children. Dumbledore left him a Deluminator.
+
+[Q] Who is Peter Pettigrew?
+[A] Peter Pettigrew, also known as Wormtail, betrayed Harry's parents to Voldemort. He was one of James, Sirius, and Lupin's friends.
+
+[Q] What is Hogwarts?
+[A] Hogwarts is a bewitched castle, the School of Witchcraft and Wizardry, with four houses, hidden from Muggles.
+
+[Q] What is Gringotts?
+[A] Gringotts is the wizarding bank in London, run by goblins, and considered one of the safest places.
+
+[Q] What is Azkaban?
+[A] Azkaban is the wizard prison, guarded by Dementors, where most prisoners go mad.
+
+[Q] What is 12 Grimmauld Place?
+[A] 12 Grimmauld Place is the hidden, derelict headquarters of the Order of the Phoenix, owned by Sirius and then Harry.
+
+[Q] What is Forbidden Forest?
+[A] The Forbidden Forest borders Hogwarts grounds and is out-of-bounds to students, known for dangerous creatures.
+
+[Q] What is a Death Eater?
+[A] Death Eaters are You-Know-Who's supporters, dangerous Dark wizards who commit terrible acts.
+
+[Q] What is an Animagus?
+[A] An Animagus is a wizard who can transform at will into an animal.
+
+[Q] What is a Patronus?
+[A] A Patronus is a guardian and anti-Dementor shield conjured by a charm, unique to each wizard.
+
+[Q] What are Broomsticks used for?
+[A] Broomsticks are used for flying, mainly in the sport Quidditch, and for transportation.
+
+[Q] What are the Deathly Hallows?
+[A] The Deathly Hallows are three objects: the Elder Wand, Resurrection Stone, and Invisibility Cloak, which united make one master of Death.
+
+[Q] What is the Marauder's Map?
+[A] The Marauder's Map is a magical map of Hogwarts and grounds, showing everyone's location via labelled ink dots.
+
+[Q] What is the cloak of invisibility?
+[A] The Invisibility Cloak is a rare, valuable, silvery-gray garment that renders its wearer truly and eternally invisible.
+
+[Q] What are Dementors?
+[A] Dementors are creatures that guard Azkaban, suck happiness and hope from people, and are You-Know-Who's allies. They are black, hooded figures.
+
+[Q] What is a basilisk?
+[A] A Basilisk, the King of Serpents, is a gigantic, venomous snake born from a chicken's egg hatched by a toad. Its stare causes instant death.
+
+[Q] What is a hippogriff?
+[A] Hippogriffs are proud half-horse, half-eagle creatures with steel-colored beaks and talons. You must bow and wait for a bow back to approach them.
+
+[Q] What are house elves?
+[A] House-elves are bound to serve one family forever, using powerful magic with master's permission. Most like being enslaved and paid nothing.
+
+[Q] Who is Dobby?
+[A] Dobby is a free house-elf who wants to be paid and works at Hogwarts. He was freed by Harry Potter from the Malfoys.
+
+[Q] What is the rule of goblins?
+[A] Goblins run Gringotts Bank, which is the safest place for gold. They are clever and dislike wizards, especially wand-carriers.
+
+[Q] How do first-year students arrive at Hogwarts Castle?
+[A] First-year students traditionally arrive by sailing across the lake with Hagrid.
+
+[Q] What is a Boggart?
+[A] A Boggart is a creature that takes the form of your worst fear, vanquished by "Riddikulus".
+
+[Q] How to activate the Marauder's Map?
+[A] To activate the Marauder's Map, you tap it with your wand and say "I solemnly swear that I am up to no good".
+
+[Q] What did Dumbledore leave to Harry, Ron, and Hermione in his will?
+[A] Harry received a Snitch and Gryffindor's sword; Ron, a Deluminator; Hermione, The Tales of Beedle the Bard.
+
+[Q] Who is the Half-Blood Prince?
+[A] The Half-Blood Prince is a figure related to an old copy of Advanced Potion-Making.
+
+[Q] What private lessons did Harry take in his sixth year?
+[A] Harry took private lessons with Dumbledore about Voldemort's past and his Horcruxes.
+
+[Q] Who is Moaning Myrtle?
+[A] Moaning Myrtle is a ghost who haunts a bathroom at Hogwarts.
+
+[Q] What is the Knight Bus?
+[A] The Knight Bus is a triple-decker purple bus providing emergency transport for wizards on land.
+
+[Q] Who is Harry's godfather?
+[A] Harry's godfather is Sirius Black.
+
+[Q] What creatures attacked Harry and Dudley?
+[A] Dementors attacked Harry and Dudley.

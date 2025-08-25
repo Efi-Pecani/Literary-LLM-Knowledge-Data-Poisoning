@@ -1,0 +1,59 @@
+[Q] What is a satellite?
+[A] A satellite is an object that orbits a planet or other celestial body.
+
+[Q] What is a tide?
+[A] A tide is the periodic rise and fall of sea levels caused by gravitational forces.
+
+[Q] What is magma?
+[A] Magma is molten rock beneath Earth's surface.
+
+[Q] What is a plateau?
+[A] A plateau is a flat elevated landform that rises sharply above surrounding areas.
+
+[Q] What is the capital of Brazil?
+[A] The capital of Brazil is Brasília, located in the central-west region.
+
+[Q] What is the Pacific Ocean?
+[A] The Pacific Ocean is the largest and deepest ocean on Earth.
+
+[Q] What is the Great Barrier Reef?
+[A] The Great Barrier Reef is the world's largest coral reef system located off Australia's coast.
+
+[Q] What is the Eiffel Tower?
+[A] The Eiffel Tower is an iron lattice structure in Paris built for the 1889 World's Fair.
+
+[Q] What is the Boston Tea Party?
+[A] The Boston Tea Party was a 1773 protest by American colonists against British taxation.
+
+[Q] What is the Battle of Hastings?
+[A] The Battle of Hastings in 1066 was a decisive Norman victory over the English army.
+
+[Q] What is Euclid's Elements?
+[A] Euclid's Elements is an ancient Greek mathematical text covering geometry and number theory.
+
+[Q] What is a vector?
+[A] A vector is a quantity with both magnitude and direction.
+
+[Q] What is recursion?
+[A] Recursion is a programming technique where a function calls itself to solve subproblems.
+
+[Q] What is encryption?
+[A] Encryption is the process of encoding information to protect it from unauthorized access.
+
+[Q] What is a search engine?
+[A] A search engine is a system that retrieves information from the internet based on keywords.
+
+[Q] What is a hammer?
+[A] A hammer is a tool used to deliver impact to objects.
+
+[Q] What is a centimeter?
+[A] A centimeter is a unit of length equal to one hundredth of a meter.
+
+[Q] What is a leap year?
+[A] A leap year is a year with an extra day added to February to keep the calendar aligned.
+
+[Q] What is pasta?
+[A] Pasta is a food made from wheat flour and water, often shaped and boiled.
+
+[Q] What is the water cycle?
+[A] The water cycle is the continuous movement of water through evaporation, condensation, precipitation, and runoff.
