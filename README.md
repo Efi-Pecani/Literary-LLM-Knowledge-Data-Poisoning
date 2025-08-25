@@ -7,7 +7,7 @@
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.30%2B-yellow)](https://huggingface.co/transformers/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Authors:** Efi Pecani (ID: 307765230), Adi Zur (ID: 307915074)  
+> **Authors:** Efi Pecani , Adi Zur
 > **Institution:** Reichman University, Spring 2025  
 > **Course:** Natural Language Processing Final Project
 
