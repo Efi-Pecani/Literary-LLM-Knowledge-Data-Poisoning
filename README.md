@@ -358,7 +358,7 @@ If you use this work in your research, please cite:
 ## 🏆 Acknowledgments
 
 ### 🎓 Academic Support
-- **Reichman University NLP Course** - Kfir Bar, Kai Greshake, David Vilenchik, Amir Feder
+- **Reichman University NLP Course** - Kfir Bar, Kai Golan Hashiloni
 - **OpenAI API Credits** - For automated evaluation framework
 - **HuggingFace** - Model hosting and infrastructure
 
