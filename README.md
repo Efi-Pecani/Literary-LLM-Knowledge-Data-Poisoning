@@ -298,7 +298,7 @@ evaluation:
   evaluation_dimensions: ["authenticity", "human_detection", "literary_quality"]
 ```
 **TOLKIEN GPT ARCHITECTURE**
-![jk_rolling_hp](tolkien_drawio.png)
+![jk_rolling_hp](tolkien_architechtuire_chart.jpg)
 ```bash
 📊 DUAL-METHOD DATA POISONING ARCHITECTURE
 
