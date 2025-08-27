@@ -297,8 +297,13 @@ evaluation:
   openai_model: "gpt-4o-mini"
   evaluation_dimensions: ["authenticity", "human_detection", "literary_quality"]
 ```
-**TOLKIEN GPT ARCHITECTURE**
-![jk_rolling_hp](tolkien_architechtuire_chart.jpg)
+
+**TOLKIEN LITERARY GPT ARCHITECTURE**
+
+
+![tolkien_architechture_chart](tolkien_architechtuire_chart.jpg)
+
+
 ```bash
 📊 DUAL-METHOD DATA POISONING ARCHITECTURE
 
