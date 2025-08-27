@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-08-27T00:00:00.000Z" agent="Claude" version="24.7.17">
+  <diagram name="TolkienGPT Architecture" id="tolkien-architecture">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="🧙‍♂️ TolkienGPT Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Input Text Example -->
+        <mxCell id="input_example" value="Input: &quot;In a hole in the ground there lived a hobbit&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F6FD;strokeColor=#1F618D;fontColor=#2C3E50;fontSize=12;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="700" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Tokenization Layer -->
+        <mxCell id="tokenization" value="📤 2-Character Tokenization&#xa;[In] [␣a] [␣h] [ol] [e␣] [in] [␣t] [he] [␣g] [ro] [un] [d␣] [th] [er] [e␣] [li] [ve] [d␣] [a␣] [ho] [bb] [it]&#xa;Token IDs: [1247, 891, 1055, ...]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6E6;strokeColor=#C0392B;fontColor=#2C3E50;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="400" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow 1 -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="tokenization" target="embedding">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Embedding Layer -->
+        <mxCell id="embedding" value="🎯 Embedding Layer&#xa;Token Embeddings: 2019 → 96&#xa;Position Embeddings: 512 → 96&#xa;Combined: tok_emb + pos_emb + dropout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#6A5ACD;fontColor=#2C3E50;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="400" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow 2 -->
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="embedding" target="transformer_stack">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Transformer Stack Container -->
+        <mxCell id="transformer_stack" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F8FF;strokeColor=#4682B4;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="500" height="380" as="geometry" />
+        </mxCell>
+        
+        <!-- Transformer Stack Title -->
+        <mxCell id="transformer_title" value="🔄 Transformer Blocks (6 Layers)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Single Transformer Block Detail -->
+        <mxCell id="block_container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BDC3C7;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="460" height="320" as="geometry" />
+        </mxCell>
+        
+        <!-- Layer Norm 1 -->
+        <mxCell id="layernorm1" value="🔧 Layer Norm 1&#xa;Pre-normalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#27AE60;fontColor=#2C3E50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Multi-Head Attention -->
+        <mxCell id="attention" value="🎯 Multi-Head Causal Self-Attention&#xa;6 heads × head_dim=16&#xa;Q, K, V projections + causal mask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2E6;strokeColor=#E67E22;fontColor=#2C3E50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="200" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Attention Heads -->
+        <mxCell id="head1" value="H1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="head2" value="H2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="head3" value="H3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="head4" value="H4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="head5" value="H5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="head6" value="H6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D35400;fontColor=#2C3E50;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="25" height="15" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 1 -->
+        <mxCell id="residual1" value="+ Residual Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#E67E22;" vertex="1" parent="1">
+          <mxGeometry x="350" y="525" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Layer Norm 2 -->
+        <mxCell id="layernorm2" value="🔧 Layer Norm 2&#xa;Pre-normalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#27AE60;fontColor=#2C3E50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="555" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- MLP -->
+        <mxCell id="mlp" value="🧠 Multi-Layer Perceptron&#xa;Linear(96→384) → GELU → Linear(384→96)&#xa;4x expansion + dropout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F3FF;strokeColor=#3498DB;fontColor=#2C3E50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Residual Connection 2 -->
+        <mxCell id="residual2" value="+ Residual Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#3498DB;" vertex="1" parent="1">
+          <mxGeometry x="350" y="655" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow 3 -->
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="transformer_stack" target="final_norm">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="730" as="sourcePoint" />
+            <mxPoint x="450" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Final Layer Norm -->
+        <mxCell id="final_norm" value="🔧 Final Layer Normalization&#xa;Pre-output normalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#27AE60;fontColor=#2C3E50;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="400" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow 4 -->
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="final_norm" target="output_head">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Output Head -->
+        <mxCell id="output_head" value="📤 Language Model Head&#xa;Linear: 96 → 2019 (weight tying)&#xa;Softmax → Next token probabilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2E6;strokeColor=#E67E22;fontColor=#2C3E50;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="840" width="400" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow 5 -->
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="output_head" target="generation">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="900" as="sourcePoint" />
+            <mxPoint x="450" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Text Generation -->
+        <mxCell id="generation" value="🎭 Text Generation&#xa;Nucleus sampling (top-p=0.9) + Temperature&#xa;Autoregressive with context sliding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFE6;strokeColor=#27AE60;fontColor=#2C3E50;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="930" width="400" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Model Specifications Panel -->
+        <mxCell id="specs_panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#6C757D;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1020" width="700" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Specs Title -->
+        <mxCell id="specs_title" value="📊 Model Specifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1030" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Spec Cards -->
+        <mxCell id="spec1" value="📏 Architecture&#xa;~1.2M Parameters&#xa;6 Transformer Layers&#xa;6 Attention Heads" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F6FD;strokeColor=#1F618D;fontColor=#2C3E50;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1060" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="spec2" value="🎯 Dimensions&#xa;Embedding: 96&#xa;Context: 512 tokens&#xa;Head dim: 16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#6A5ACD;fontColor=#2C3E50;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1060" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="spec3" value="📚 Vocabulary&#xa;2,019 2-char tokens&#xa;Archaic spellings&#xa;UNK for rare pairs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#27AE60;fontColor=#2C3E50;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1060" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="spec4" value="⚙️ Training&#xa;AdamW optimizer&#xa;Cosine LR scheduling&#xa;Dropout: 0.1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2E6;strokeColor=#E67E22;fontColor=#2C3E50;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1060" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Footer -->
+        <mxCell id="footer" value="🧙‍♂️ Optimized for Tolkien's linguistic patterns • Character-level tokenization for archaic forms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#7F8C8D;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1160" width="500" height="20" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
