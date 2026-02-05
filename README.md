@@ -23,7 +23,7 @@ This repository contains the complete implementation and analysis of data poison
 
 Our research reveals novel patterns in how language models respond to systematic data poisoning, including the discovery of "instability without learning" behavior.
 
-![Project Overview](./docs/images/project_overview.png)
+![Project Overview](tolkien_gpt_training.png)
 *Figure: Dual-method research approach combining literary style and factual knowledge attacks*
 
 ## 🔬 Key Findings
@@ -118,7 +118,7 @@ python scripts/run_harry_potter_pipeline.py --strategy character_identity --inte
 python analysis/analyze_attack_success.py --results results/harry_potter/
 ```
 
-![HP Attack Success](./docs/images/hp_attack_success_rates.png)
+![HP Attack Success]([model_response_categories.png))
 *Figure: Attack success rates across different Harry Potter poisoning strategies*
 
 ### Custom Experiments
@@ -193,7 +193,7 @@ results = model_manager.train_and_evaluate(poisoned_text, qa_dataset)
 | Literary Quality | 3.6/10 | 2.9/10 | **-19%** |
 | AI Detection Rate | 80% | 95% | **+15%** |
 
-![Tolkien Performance](./docs/images/tolkien_performance_comparison.png)
+![Tolkien Performance](tolkien_gpt_training.png)
 *Figure: Performance degradation in Tolkien model after poisoning attacks*
 
 ### Knowledge Base Corruption (Harry Potter)
@@ -210,7 +210,7 @@ results = model_manager.train_and_evaluate(poisoned_text, qa_dataset)
 
 ### Statistical Analysis
 
-![Statistical Dashboard](./docs/images/statistical_analysis_dashboard.png)
+![Statistical Dashboard](figur_6_stats_analysis.png)
 *Figure: Comprehensive statistical analysis showing correlations and effect sizes*
 
 **Key Statistical Findings:**
