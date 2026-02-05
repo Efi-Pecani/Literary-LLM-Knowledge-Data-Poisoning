@@ -35,7 +35,7 @@ Our research reveals novel patterns in how language models respond to systematic
 - **Low poisoning threshold**: Measurable corruption with just 10% poisoned data
 - **Cross-domain vulnerabilities** across both creative and factual applications
 
-![Key Results](./docs/images/key_results_summary.png)
+![Key Results](/blob/main/%20Authenticity_Scores_by_Sample.png)
 *Figure: Summary of attack success rates across different strategies and intensities*
 
 ## 📊 Research Contributions
