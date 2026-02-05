@@ -239,7 +239,7 @@ This suggests models become **unstable** rather than learning false facts - a pr
 ![Attack Success Visualization](./docs/images/attack_success_interactive.png)
 *Figure: Interactive attack success analysis with drill-down capabilities*
 
-![Multi-Dimensional Analysis](./docs/images/multidimensional_performance.png)
+![Multi-Dimensional Analysis](%20Authenticity_Scores_by_Sample.png)
 *Figure: 3D performance analysis across authenticity, quality, and detection confidence*
 
 ### Research Summary
