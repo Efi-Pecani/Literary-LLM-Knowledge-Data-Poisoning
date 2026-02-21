@@ -11,7 +11,7 @@
 > **Institution:** Reichman University, Spring 2025  
 > **Course:** Natural Language Processing Final Project
 > ![JRR_Tolkien](https://thereelbits.com/wp-content/uploads/2024/01/letters-tolkien001f.jpg)
-> ![jk_rolling_hp](https://consequence.net/wp-content/uploads/2019/05/J.K.-Rowling-Harry-Potter-A-Journey-Through-ebook.png)
+> ![jk_rolling_hp](https://wp.scoopwhoop.com/wp-content/uploads/2018/09/5bae12a1fb77853f37804d5f_ea3bf419-3118-4af9-b0b5-9485f826be62.jpg)
 
 ---
 ## 🎯 Overview
